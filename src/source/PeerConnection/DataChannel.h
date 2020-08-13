@@ -18,6 +18,7 @@ typedef struct {
     UINT32 channelId;
     UINT64 onMessageCustomData;
     RtcOnMessage onMessage;
+    RtcDataChannelStats rtcDataChannelDiagnostics;
 
     UINT64 onOpenCustomData;
     RtcOnOpen onOpen;
